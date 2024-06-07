@@ -8,13 +8,16 @@ body{
     background-color: #222;
 }
 h1{color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 .card{
     width: 90%;
     max-width: 470px;
     background: linear-gradient(135deg , #00feba, #5b548a);
     color: #fff;
-    margin: 100px auto 0;
+    margin: 30px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
