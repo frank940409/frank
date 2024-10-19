@@ -19,14 +19,19 @@ h1{color: rgb(255, 255, 255);
         #00feba, #ff6f61, #ff00ff, #00ffff, #ff4500, 
         #32cd32, #9400D3, #FFD700, #ff1493, #1e90ff, 
         #ff6347, #adff2f, #ffdab9, #87cefa, #ffb6c1, 
-        #f0e68c, #dda0dd, #20b2aa, #ee82ee, #7b68ee);
-    background-size: 400% 400%;
+        #f0e68c, #dda0dd, #20b2aa, #ee82ee, #7b68ee,
+        #8a2be2, #ff69b4, #4682b4, #7fff00, #d2691e, 
+        #6495ed, #ffdead, #f08080, #66cdaa, #dda0dd, 
+        #ff4500, #2e8b57, #ff7f50, #ff1493, #00ced1, 
+        #8b0000, #ffd700, #ff00ff, #5f9ea0, #00fa9a, 
+        #ff69b4, #7cfc00);
+    background-size: 800% 800%;
     color: #fff;
     margin: 30px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
-    animation: gradientAnimation 10s ease infinite;
+    animation: gradientAnimation 20s ease infinite;
 }
 
 @keyframes gradientAnimation {
@@ -40,6 +45,7 @@ h1{color: rgb(255, 255, 255);
         background-position: 0% 50%;
     }
 }
+
 
 
 .search{
