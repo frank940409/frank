@@ -15,6 +15,7 @@ h1{color: rgb(255, 255, 255);
 .card {
     width: 90%;
     max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #ff6f61, #ff00ff, #00ffff, #ff4500, #32cd32, #9400D3, #FFD700);
     background-size: 400% 400%;
     color: #fff;
     margin: 30px auto 0;
@@ -26,22 +27,13 @@ h1{color: rgb(255, 255, 255);
 
 @keyframes gradientAnimation {
     0% {
-        background: linear-gradient(135deg, #00feba, #5b548a);
+        background-position: 0% 50%;
     }
-    20% {
-        background: linear-gradient(135deg, #ff6f61, #ffcc00);
-    }
-    40% {
-        background: linear-gradient(135deg, #ff00ff, #00ffff);
-    }
-    60% {
-        background: linear-gradient(135deg, #ff4500, #32cd32);
-    }
-    80% {
-        background: linear-gradient(135deg, #9400D3, #FFD700);
+    50% {
+        background-position: 100% 50%;
     }
     100% {
-        background: linear-gradient(135deg, #00feba, #5b548a);
+        background-position: 0% 50%;
     }
 }
 
