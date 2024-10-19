@@ -22,7 +22,7 @@ h1{color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
-    animation: gradientAnimation 12s ease infinite;
+    animation: gradientAnimation 8s ease infinite;
 }
 
 @keyframes gradientAnimation {
