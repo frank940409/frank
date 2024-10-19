@@ -22,26 +22,30 @@ h1{color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
-    animation: gradientAnimation 7s ease infinite;
+    animation: gradientAnimation 12s ease infinite;
 }
 
 @keyframes gradientAnimation {
-   0% {
+    0% {
         background: linear-gradient(135deg, #00feba, #5b548a);
     }
-    25% {
+    20% {
         background: linear-gradient(135deg, #ff6f61, #ffcc00);
     }
-    50% {
+    40% {
         background: linear-gradient(135deg, #ff00ff, #00ffff);
     }
-    75% {
+    60% {
         background: linear-gradient(135deg, #ff4500, #32cd32);
+    }
+    80% {
+        background: linear-gradient(135deg, #9400D3, #FFD700); /* 深紫到金色 */
     }
     100% {
         background: linear-gradient(135deg, #00feba, #5b548a);
     }
 }
+
 .search{
     width: 100%;
     display: flex;
