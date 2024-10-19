@@ -15,14 +15,13 @@ h1{color: rgb(255, 255, 255);
 .card {
     width: 90%;
     max-width: 470px;
-    
     background-size: 400% 400%;
     color: #fff;
     margin: 30px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
-    animation: gradientAnimation 8s ease infinite;
+    animation: gradientAnimation 12s ease infinite;
 }
 
 @keyframes gradientAnimation {
