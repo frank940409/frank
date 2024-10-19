@@ -15,7 +15,11 @@ h1{color: rgb(255, 255, 255);
 .card {
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #ff6f61, #ff00ff, #00ffff, #ff4500, #32cd32, #9400D3, #FFD700);
+    background: linear-gradient(135deg,
+        #00feba, #ff6f61, #ff00ff, #00ffff, #ff4500, 
+        #32cd32, #9400D3, #FFD700, #ff1493, #1e90ff, 
+        #ff6347, #adff2f, #ffdab9, #87cefa, #ffb6c1, 
+        #f0e68c, #dda0dd, #20b2aa, #ee82ee, #7b68ee);
     background-size: 400% 400%;
     color: #fff;
     margin: 30px auto 0;
